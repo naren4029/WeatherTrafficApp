@@ -12,6 +12,7 @@
         display: inline-block;
         border: 1px solid $border-light-grey;
         border-radius: 5px;
+        overflow: hidden;
         .logo-left-cls,.logo-right-cls{
             height: 50px;
             width: 50px;
