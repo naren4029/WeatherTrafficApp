@@ -1,0 +1,7 @@
+@import '../../Colors.scss';
+.app-header {
+  background-color: $background-white;
+  height: 70px;
+  border-bottom: 1px solid $border-light-grey;
+  box-shadow: $element-shadow
+}

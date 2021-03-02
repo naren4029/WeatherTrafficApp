@@ -1,0 +1,13 @@
+.date-time-pnl-cls{
+    padding: 2vh 2vw;
+    width: 70%;
+    /* border-right: 1px dashed; */
+    .input-content-cls{
+        padding: 2%;
+        text-align: center;
+        margin-left: 1vw;
+    }
+    .input-content-cls:first-child{
+        margin-left: 0;
+    }
+}

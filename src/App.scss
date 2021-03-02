@@ -1,0 +1,39 @@
+.app-body{
+  min-height: 80vh;
+  margin: 3% auto;
+  background: #ffffff80;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  min-width: 200px;
+  width: 90%;
+  max-width: 780px;
+}
+
+@media(max-width:318px){
+    .logo-text-cls{
+        display: none !important;
+    }
+}
+@media (max-width:480px){
+  .app-body {
+    min-width: 75%;
+    margin: 2vh;
+  }
+}
+@media(max-width:660px){
+    .logo-text-cls{
+        font-size: calc(15px + 2vmin) !important;
+    }
+    .date-time-pnl-cls{
+        width: 100% !important;
+    }
+    .weather-cls{
+      width: 80%;
+      margin: 3% !important;
+      max-width: none !important;
+    }
+    .screenshot-pnl-cls{
+      width: 90% !important;
+      margin: 4% !important;
+    }
+}

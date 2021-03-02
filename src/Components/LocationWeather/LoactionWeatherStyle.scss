@@ -1,0 +1,46 @@
+@import '../../Colors.scss';
+.location-weather-pnl-cls{
+    /* border: 1px solid; */
+    width: 100%;
+    .location-list-pnl-cls{
+        padding: 2vh 2vw;
+        width: 65%;
+        display: inline-block;
+        .location-list-cls{
+            padding: 2%;
+            margin-left: 0;
+            max-width: 270px;
+            min-width: 169px;
+        }
+    }
+    .weather-cls{
+        border: 1px dashed $border-black;
+        display: inline-block;
+        margin: 10px auto;
+        vertical-align: middle;
+        border-radius: 5px;
+        text-align: center;
+        padding: 5%;
+        font-weight: bold;
+        max-width: 90px;
+        background-color: $background-white;
+    }
+    .loading-spinner-cls{
+        background: url('../../Assets/Images/spinner.png') no-repeat;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        background-size: contain;
+        margin-left: 5px;
+        vertical-align: middle;
+        animation: rotation 2s infinite linear;
+    }
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+    }
+}

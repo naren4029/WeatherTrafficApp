@@ -1,0 +1,53 @@
+@import '../../Colors.scss';
+
+.notification-pnl-cls{
+    position: absolute;    
+    background: $app-info-notification-background;
+    display: none;
+    left: 20%;
+    top: 5px;
+    padding: 10px;
+    border-radius: 3px;
+    animation-name: animateNotification;
+    animation-duration: 0.5s;
+    box-shadow: $element-shadow ;
+    .notification-info-icon-cls{
+        font-size: 50px;
+        line-height: 28px;
+        background: $background-white;
+        margin: 0 5px;
+        display: inline-block;
+        height: 37px;
+        padding: 5px 10px;
+        border-radius: 50%;
+        color: $app-info-icon-color;
+        font-weight: bold;
+        text-shadow: 3px 3px 3px $border-medium-grey;
+    }
+    .notification-info-text-cls{
+        vertical-align: super;
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .notification-close{
+        display: inline-block;
+        font-size: 36px;
+        font-family: "stencilFont";
+        position: absolute;
+        right: 5px;
+        top: -15px;
+        color: $app-info-close-icon-color;
+        cursor: pointer;
+    }
+}
+.show-cls{
+    display: block;
+}
+@keyframes animateNotification{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 5px;
+    }
+}
